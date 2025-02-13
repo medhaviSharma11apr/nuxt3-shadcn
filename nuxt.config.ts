@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt','@nuxtjs/color-mode'],
+  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt','@nuxtjs/color-mode', 'nuxt-icon', ],
   shadcn: {
     /**
      * Prefix for all the imported component

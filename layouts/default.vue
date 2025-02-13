@@ -3,7 +3,7 @@ const loading= ref(false)
 </script>
 
 <template>
- <div class="flex item-start ">
+ <div class="grid item-start ">
     <div>
         <Sidebar></Sidebar>
     </div>
