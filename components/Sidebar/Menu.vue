@@ -35,7 +35,7 @@ const items = ref([
     <div> 
         <header class="flex items-center gap-2 p-4 hover:scale-[105%] transition cursor-pointer  ">
             <Logo></Logo>
-            <p class="font-bold">Deepak Mishra</p>
+            <p class="font-bold text-black ">Deepak Mishra</p>
             
         </header>
         <div class="px-4 grow">

@@ -3,25 +3,28 @@ const loading = ref(false)
 </script>
 
 <template>
-    <div class=''>
+    <div class='grid gap-8 h-screen'>
         <header>
-            <h1>
-                Dash Board
-            </h1>
-            <p>
-                All the information about your current finances
-            </p>
-        </header>
-        <main>
             <div>
-                Here is a tab
+                <p> Welcome Back Deepak Mishra !</p>
+                <h1>
+                    Dash Board
+                </h1>
+
+            </div>
+
+            <div class="bg-neutral-400 h-12 w-full"></div>
+        </header>
+        <main class="grow">
+            <div>
+                Here is a tab with several options
             </div>
             <section>
-                This is my section 
+                This is my section
             </section>
         </main>
         <footer>
-            This is my footer
+            I will have 3 different cards
         </footer>
     </div>
 </template>
