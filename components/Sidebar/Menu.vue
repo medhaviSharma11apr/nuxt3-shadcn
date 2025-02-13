@@ -40,7 +40,7 @@ const items = ref([
         </header>
         <div class="px-4 grow">
                 <div class="grid gap-4">
-                    <div v-for="(item , index) in items " :key="index" class="flex item-center gap-2 px-2 py-1 transition rounded cursor-pointer hover:bg-neutral-100">
+                    <NuxtLink :href="item.path" v-for="(item , index) in items " :key="index" class="flex item-center gap-2 px-2 py-1 transition rounded cursor-pointer hover:bg-neutral-100">
                         <Icon :name="item.icon" class="mt-1" size="20" co></Icon>
                         <span>
                             {{
@@ -48,7 +48,7 @@ const items = ref([
                             }}
                         </span>
                        
-                    </div>
+                    </NuxtLink>
                 </div>
             </div>
     </div>
